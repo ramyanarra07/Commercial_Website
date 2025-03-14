@@ -417,7 +417,8 @@ REG NO : 212223040128
 ## SERVICES
 ![WhatsApp Image 2025-03-14 at 18 43 15_18fb076c](https://github.com/user-attachments/assets/4a48236a-0e31-4243-965d-2b7139ded17a)
 ## CONTACT 
-![WhatsApp Image 2025-03-14 at 18 43 48_29fee5c2](https://github.com/user-attachments/assets/66d11ee3-5027-47cf-9d93-b46f79c4203f)
+![image](https://github.com/user-attachments/assets/f2107c7c-2d72-467a-ab36-20a678997699)
+
 
 
 ## RESULT
