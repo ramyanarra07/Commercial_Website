@@ -64,7 +64,6 @@ REG NO : 212223040128
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Codenvy</title>
   <style>
-    /* Reset some default styles */
     * {
       margin: 0;
       padding: 0;
@@ -75,8 +74,6 @@ REG NO : 212223040128
       font-family: Arial, sans-serif;
       line-height: 1.6;
     }
-
-    /* Splash Screen (Logo Page) */
     .splash-screen {
       display: flex;
       justify-content: center;
@@ -88,12 +85,12 @@ REG NO : 212223040128
       left: 0;
       width: 100%;
       z-index: 1000;
-      animation: fadeOut 3s forwards; /* Fade out after 3 seconds */
+      animation: fadeOut 3s forwards; 
     }
 
     .splash-screen img {
-      max-width: 200px; /* Adjust logo size */
-      animation: zoomIn 3s ease-in-out; /* Logo zoom-in animation */
+      max-width: 200px; 
+      animation: zoomIn 3s ease-in-out; 
     }
 
     @keyframes zoomIn {
@@ -113,16 +110,12 @@ REG NO : 212223040128
       }
       100% {
         opacity: 0;
-        visibility: hidden; /* Hide after fading out */
+        visibility: hidden; 
       }
     }
-
-    /* Main Content (Hidden Initially) */
     .main-content {
-      display: none; /* Hidden until splash screen finishes */
+      display: none; 
     }
-
-    /* Header */
     header {
       display: flex;
       justify-content: space-between;
@@ -159,8 +152,6 @@ REG NO : 212223040128
       color:black;
       text-decoration: underline;
     }
-
-    /* Hero Section */
     .hero {
       display: flex;
       flex-direction: column;
@@ -191,7 +182,6 @@ REG NO : 212223040128
       background-color: powderblue;
     }
 
-    /* About Section */
     .about {
       padding: 2rem;
       text-align: center;
@@ -208,7 +198,6 @@ REG NO : 212223040128
       line-height: 1.8;
     }
 
-    /* Services Section */
     .services {
       padding: 2rem;
       text-align: center;
@@ -234,56 +223,24 @@ REG NO : 212223040128
       border-radius: 10px;
     }
 
-    /* Contact Section */
-    .contact {
-      padding: 2rem;
-      text-align: center;
-      background-color: white;
-    }
-
-    .contact h2 {
-      margin-bottom: 1.5rem;
-    }
-
-    .contact form {
-      max-width: 600px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .contact input,
-    .contact textarea {
-      padding: 0.75rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 1rem;
-    }
-
-    .contact button {
-      padding: 0.75rem 1.5rem;
-      background-color: powderblue;
-      color: black;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-
-    .contact button:hover {
-      background-color: #555;
-    }
-
-    /* Footer */
+    .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    background: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:WHITE;
+}
     footer {
       text-align: center;
       padding: 1rem;
       background-color:powderblue;
       color: black;
     }
-
-    /* Responsive Design */
     @media (max-width: 768px) {
       header {
         flex-direction: column;
@@ -308,14 +265,12 @@ REG NO : 212223040128
       }
     }
 
-    /* Hidden Sections */
     .hidden {
       display: none;
     }
   </style>
 </head>
 <body>
-  <!-- Splash Screen (Logo Page) -->
   <div class="splash-screen">
     <img src="codenvy logo.jpg" alt="CodeXel Logo"> 
   </div>
@@ -345,7 +300,7 @@ REG NO : 212223040128
     <section id="about" class="about hidden">
       <h2>About Us</h2>
       <p>
-        At Codeenvy, our mission is to empower developers to create, innovate, and succeed in the cloud. 
+        At Codenvy, our mission is to empower developers to create, innovate, and succeed in the cloud. 
         We believe that cloud-based development should be accessible, collaborative, and fun. 
         Our platform is designed to help developers work more efficiently, effectively, and enjoyably.
 .
@@ -358,28 +313,25 @@ REG NO : 212223040128
       <div class="service-container">
         <div class="service">
           <h3> Workspace Management</h3>
-          <p>Codeenvy allows developers to create and manage multiple workspaces, each with its own set of projects, files, and settings.</p>
+          <p>Codenvy allows developers to create and manage multiple workspaces, each with its own set of projects, files, and settings.</p>
         </div>
         <div class="service">
           <h3> Debugging and Testing</h3>
-          <p>Codeenvy offers debugging and testing tools that allow developers to identify and fix errors in their code, including features like breakpoints, console output, and test runners.</p>
+          <p>Codenvy offers debugging and testing tools that allow developers to identify and fix errors in their code, including features like breakpoints, console output, and test runners.</p>
         </div>
         <div class="service">
           <h3>Support and Training</h3>
-          <p>Codeenvy offers support and training resources that help developers get started with the platform and resolve any issues they may encounter, including documentation, tutorials, and customer support.</p>
+          <p>Codenvy offers support and training resources that help developers get started with the platform and resolve any issues they may encounter, including documentation, tutorials, and customer support.</p>
         </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact hidden">
-      <h2>Contact Us</h2>
-      <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Queries" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us<p><sub>Email: codenvy123@gmail.com<p><sub>Phone NO: 4124-65432-7865<p><sub>Address: KV Colony,Anna Nagar,Chennai<p><sub>Pincode: 602571</sub></p></h2>
+        
     </section><br><br><br><br><br><br><br><br><br>
     <footer>
       <p>&copy; 2025 Codenvy. All rights reserved.</p>
