@@ -363,11 +363,14 @@ REG NO : 212223040128
 
 ## OUTPUT
 ## HOME
-![image](https://github.com/user-attachments/assets/799fcef9-a11b-4c01-a976-b28b19158e84)
+![WhatsApp Image 2025-03-14 at 18 42 09_b01ca7a6](https://github.com/user-attachments/assets/63a7b74e-53b7-4d45-8d09-3b32514af284)
+
 ## ABOUT US
 ![WhatsApp Image 2025-03-14 at 18 42 39_3f45d3ed](https://github.com/user-attachments/assets/987ae23c-14e9-45a6-bc98-a5a9047dd8b6)
+
 ## SERVICES
 ![WhatsApp Image 2025-03-14 at 18 43 15_18fb076c](https://github.com/user-attachments/assets/4a48236a-0e31-4243-965d-2b7139ded17a)
+
 ## CONTACT 
 ![image](https://github.com/user-attachments/assets/f2107c7c-2d72-467a-ab36-20a678997699)
 
